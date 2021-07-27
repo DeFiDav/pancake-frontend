@@ -11,6 +11,14 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "Figo Token",
+      "symbol": "FIGO",
+      "address": "0x7c6f2ee126f429945f53175bca522bc6589ec470",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://figo.farm/images/pools/figo-figo.png"
+    },
+    {
       "name": "Bisan Token",
       "symbol": "BISAN",
       "address": "0xf3d8f886e0d9e64cf6d01ca0b4ef000ccbb6fa9a",
