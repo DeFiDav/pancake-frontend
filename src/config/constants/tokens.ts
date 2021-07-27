@@ -65,10 +65,10 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   cake: {
-    symbol: 'CAKE',
+    symbol: 'FIGO',
     address: {
-      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      56: '0x7c6f2ee126f429945f53175bca522bc6589ec470',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
