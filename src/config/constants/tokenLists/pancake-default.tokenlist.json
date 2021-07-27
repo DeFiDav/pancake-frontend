@@ -11,6 +11,14 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "Bisan Token",
+      "symbol": "BISAN",
+      "address": "0xf3d8f886e0d9e64cf6d01ca0b4ef000ccbb6fa9a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://polycaak.netlify.app/images/tokens/0xf3d8f886e0d9e64cf6d01ca0b4ef000ccbb6fa9a.png"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
