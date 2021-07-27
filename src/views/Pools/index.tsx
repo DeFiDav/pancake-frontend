@@ -224,7 +224,7 @@ const Pools: React.FC = () => {
     <CardLayout>
       {chosenPools.map((pool) =>
         pool.isAutoVault ? (
-          <CakeVaultCard key="auto-cake" pool={pool} showStakedOnly={stakedOnly} />
+         {/* <CakeVaultCard key="auto-cake" pool={pool} showStakedOnly={stakedOnly} /> */}
         ) : (
           <PoolCard key={pool.sousId} pool={pool} account={account} />
         ),
@@ -249,10 +249,10 @@ const Pools: React.FC = () => {
               {t('High APR, low risk.')}
             </Heading>
           </Flex>
-          <Flex flex="1" height="fit-content" justifyContent="center" alignItems="center" mt={['24px', null, '0']}>
+        {/*  <Flex flex="1" height="fit-content" justifyContent="center" alignItems="center" mt={['24px', null, '0']}>
             <HelpButton />
             <BountyCard />
-          </Flex>
+          </Flex> */}
         </Flex>
       </PageHeader>
       <Page>
@@ -313,14 +313,14 @@ const Pools: React.FC = () => {
         )}
         {viewMode === ViewMode.CARD ? cardLayout : tableLayout}
         <div ref={loadMoreRef} />
-        <Image
+        {/*  <Image
           mx="auto"
           mt="12px"
           src="/images/decorations/3d-syrup-bunnies.png"
           alt="Pancake illustration"
           width={192}
           height={184.5}
-        />
+        /> */}
       </Page>
     </>
   )
