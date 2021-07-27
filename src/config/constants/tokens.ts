@@ -3,7 +3,7 @@ import { ChainId, Token } from '@pancakeswap/sdk'
 export const CAKE: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    '0x7c6f2ee126f429945f53175bca522bc6589ec470',
     18,
     'CAKE',
     'PancakeSwap Token',
