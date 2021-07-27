@@ -5,21 +5,21 @@ const farms: FarmConfig[] = [
   /**
    * These 3 farms (PID 0, 251, 252) should always be at the top of the file.
    */
-  {
-    pid: 0,
-    lpSymbol: 'CAKE',
-    lpAddresses: {
-      97: '',
-      56: '0x7c6f2ee126f429945f53175bca522bc6589ec470',
-    },
-    token: tokens.cake,
-    quoteToken: tokens.wbnb,
-  },
+//   {
+//     pid: 0,
+//     lpSymbol: 'CAKE',
+//     lpAddresses: {
+//       97: '',
+//       56: '0x7c6f2ee126f429945f53175bca522bc6589ec470',
+//     },
+//     token: tokens.cake,
+//     quoteToken: tokens.wbnb,
+//   },
   {
     pid: 1,
     lpSymbol: 'FIGO-BNB LP',
     lpAddresses: {
-      97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
+      97: '',
       56: '0xf0a3c29cee5413d3c8efcd60c3b02e93796d3d21',
     },
     token: tokens.cake,
